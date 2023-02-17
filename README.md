@@ -1,53 +1,35 @@
-# Welcome to Remix!
+# Overview
 
-- [Remix Docs](https://remix.run/docs)
+Welcome to Notelify! This web app is a note taking app where you can put your notes in through the web. Currently the application is still going under construction but is in it's prototyping pahse where you can run it locally through your system and use it. The purpose of writing this application is to help anyone but especially students be able to write and access their notes on the internet.
 
-## Development
+To run the app locally on your machine follow these steps:
+1.) Download and extract the zip file
+2.) Open your terminal or shell and type in: npm install
+3.) After the installation is complete run : npm run dev
 
-From your terminal:
+After following these steps you should be able to access the app on localhost:3000
 
-```sh
-npm run dev
-```
+[Notelify Demo Video](https://youtu.be/GK4PO_Rbj4w)
 
-This starts your app in development mode, rebuilding assets on file changes.
+# Web Pages
 
-## Deployment
+{Describe each of the web pages you created and how the web app transitions between each of them.  Also describe what is dynamically created on each page.}
 
-First, build your app for production:
+# Development Environment
 
-```sh
-npm run build
-```
+* Node.js
+* VScode
+* Remix
+* Spline
 
-Then run the app in production mode:
+# Useful Websites
 
-```sh
-npm start
-```
+* [Remix Documentation](https://remix.run/docs/en/v1)
+* [Spline Documentation](https://docs.spline.design/)
+* [W3Schools](https://www.w3schools.com/tags/att_form_method.asp)
 
-Now you'll need to pick a host to deploy it to.
+# Future Work
 
-### DIY
-
-If you're familiar with deploying node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `remix build`
-
-- `build/`
-- `public/build/`
-
-### Using a Template
-
-When you ran `npx create-remix@latest` there were a few choices for hosting. You can run that again to create a new project, then copy over your `app/` folder to the new project that's pre-configured for your target server.
-
-```sh
-cd ..
-# create a new project, and pick a pre-configured host
-npx create-remix@latest
-cd my-new-remix-app
-# remove the new project's app (not the old one!)
-rm -rf app
-# copy your app over
-cp -R ../my-old-remix-app/app app
-```
+* User Authentication
+* Better Database (MySQL/PostgreSQL)
+* Production
